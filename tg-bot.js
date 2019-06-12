@@ -7,7 +7,6 @@ const film = require('./movie/');
 const tv = require('./tv/');
 const theatre = require('./theatre/');
 
-
 const bot = new Telegraf(token);
 bot.start((ctx) => ctx.reply(`Hello there! Here is some functional commands that you can use:\n\n1.Type /film or /tv and get brief description of the random film (tv-show) from IMDB\n2.Type /film (name of the film) and get brief description of this film (ex:/film Fury)\n\n3.Type /weather and get brief description of this weather in Kyiv\n4.Type /weather (name of the city) and get brief description of this weather in this city (ex:/weather Stockholm)`));
 
