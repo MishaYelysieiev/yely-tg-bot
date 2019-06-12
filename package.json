@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon tg-bot"
+  },
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-movie": "^3.0.0",
+    "omdb": "^0.8.0",
+    "telegraf": "^3.30.1"
+  }
+}
