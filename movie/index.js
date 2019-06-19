@@ -24,7 +24,7 @@ module.exports.getRandom = async function() {
 
 
     }catch (err) {
-        return err.message;
+        return 'Something went wrong, please try this command again';
     }
 
 };
